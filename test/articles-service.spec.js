@@ -1,5 +1,5 @@
 require('dotenv').config();
-/*global expect, supertest*/
+/*global expect*/
 const ArticlesService = require('../src/articles-service');
 const knex = require('knex');
 
